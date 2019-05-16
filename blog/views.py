@@ -9,6 +9,10 @@ def article_create_view(request):
     Create a single article
     '''
     form = ArticleCreateForm(request.POST or None)
+    if request.method == 'POST':
+        print(request.POST)
+            
+
     context = {
         "form":form
     }
