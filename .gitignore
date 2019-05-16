@@ -1,0 +1,15 @@
+
+*pyc
+/.vscode
+
+/db.sqlite3
+
+/.DS_Store
+
+.env
+
+/logs
+
+/staticfiles
+
+/mediafiles
